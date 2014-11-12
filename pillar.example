@@ -2,3 +2,7 @@
 docker:
     version: 1.3.1
     fig_version: 1.0.0
+    users:              # users to add to Docker group
+        - vagrant
+    images:             # images to pre-download
+        tutum/tomcat: 7.0
